@@ -1,1 +1,89 @@
 
+body {
+
+	font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+	font-size: 50px;
+
+}
+.blue-color {
+	color: blue;
+}
+.orange-color {
+	color: orange;
+}
+.flexible-container {
+	display: flex;
+	margin-bottom: 100px;
+}
+.half-width{
+	width: 50%;
+	padding-left: 10%;
+
+}
+
+.half-width img {
+	width: 50%;
+}
+
+.link-button {
+
+	text-decoration: none;
+	background-image: linear-gradient(to bottom right, #0033cc 0%, #ff99cc 100%);
+	padding: 10px 40px;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+
+.row {
+  margin: 20px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 70px;
+}
+
+
+.column {
+  float: left;
+  width: 15%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background: linear-gradient(to bottom, #cc99ff 0%, #ffcc99 100%);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+
+
+footer{
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+    background-color: rgb(60, 60, 60);
+    height: 150px;
+    font-family: "Open Sans"
+}
+
+
+
